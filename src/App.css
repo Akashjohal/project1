@@ -1,0 +1,110 @@
+ .App {
+  text-align: center;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+#button1{
+  background-color: rgba(179, 22, 22, 0.555);
+  color: white;
+  padding: 19px;
+  border-radius: 20px;
+
+  margin: 10px 0px 10px 10px;
+ 
+  
+}
+#picture1{
+ text-align: left;
+ display: flex;
+ margin: 20px 20px 20px 220px;
+}
+#picture2{
+text-align: left;
+margin: 20px 210px 0px 0px;
+}
+form{
+  display: inline-block;
+  border: 1px solid black;
+  text-align: center;
+  transform: translateX(50%);
+  
+}
+.booking{
+  margin: 10px;
+  padding: 5px;
+  padding-inline: 10px;
+  
+}
+#button3{
+  transform: translateX(85%);
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(179, 22, 22, 0.555);
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+}
+
+.split{
+  background-color: pink;
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+
+ 
+}
+.Detail{
+  background-color: rgb(255, 196, 224);
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  align-items: center center;
+  top: 0;
+  overflow-x: hidden;
+
+  text-align: center;
+
+
+}
+.right{
+  right: 0;
+}
+.left{
+  left: 0;
+}
+.toggle{
+
+  margin: 20px;
+  border-radius:100px;
+  text-align: center;
+}
+#button1:hover{
+  background-color: rgb(226, 43, 43);
+  transition: 1s;
+  padding: 20px;
+}
+#button2{
+  margin: 20px 500px 60px 0px;
+  background-color: rgba(179, 22, 22, 0.555);
+  color: white;
+  padding: 10px 40px 10px 40px;
+  border-radius: 20px;
+}
+.discription{
+ margin: 90px 290px 200px 10px;
+ padding: 10px 50px 10px 50px ;
+  position: absolute;
+  display: inline;
+  transform: translateX(-329%);
+  font-size: large;
+  border: 2px solid black;
+}
